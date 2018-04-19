@@ -1,7 +1,7 @@
 ﻿using System;
 using NuGet.Server;
 
-namespace AFT.UGS.NugetServer.Helper
+namespace NugetServer.Helper
 {
     public class UrlHelper
     {

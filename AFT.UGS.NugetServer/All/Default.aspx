@@ -42,9 +42,9 @@
         %>
         <tr>
             <td>
-                <a href="https://feed.ugsdev.com/api/v2/package/<%=packPath.Name%>/<%=packPath.Version%>">
+                <b>
                     <%=packPath.Name%>
-                </a>
+                </b>
             </td>
             <td>
                 <b>

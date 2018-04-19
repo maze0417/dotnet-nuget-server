@@ -1,13 +1,13 @@
 using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Routing;
-using AFT.UGS.NugetServer;
+using NugetServer;
 using NuGet.Server;
 using NuGet.Server.V2;
 
 [assembly: WebActivatorEx.PreApplicationStartMethod(typeof(NuGetODataConfig), "Start")]
 
-namespace AFT.UGS.NugetServer
+namespace NugetServer
 {
     public static class NuGetODataConfig
     {
